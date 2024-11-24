@@ -5,8 +5,10 @@ Proposed Solution:-
 Probabilistic Edge Weights: Each edge weight is modeled as a probability distribution.
 Dynamic Updates: When edge weights change, the algorithm recalculates only the affected paths, avoiding full recomputation.
 This approach ensures efficient computation of shortest paths under uncertainty and dynamic conditions, making it suitable for real-time systems.
-import java.util.*;
 
+
+**CODE**
+import java.util.*;
 public class SimpleDynamicGraph {
     static class Edge {
         int target;
